@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-image:url(img/bg.png);
+    height: 100vh;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 100px;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    font-size: 16px;
+  list-style: none;
+  color: white;
+  margin: 5px 25px;
+}
+.buttons{}
+.buttons button {
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+.buttons button a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    
+}
+
+/* Hero Section */
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero-left{}
+.hero-left h6{
+    font-size: 14px;
+    color: white;
+    margin-bottom: 16px;
+}
+.hero-left h1{
+    font-size: 61px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.hero-left p{
+    width: 75%;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 30px;
+}
+.prices{
+    display: flex;
+    align-items: center;
+}
+.prices .btn{
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: burlywood;
+    border: 1px solid burlywood;
+    border-radius: 3px;
+    padding: 5px 15px;
+    margin-right: 12px;
+}
+.prices h4{
+    font-size: 18px;
+    color: white;
+    margin-right: 5px;
+}
+.prices span{
+    font-size: 10px;
+    color: burlywood;
+}
+
+.hero-right{
+    /* width: 100%; */
+}
+.hero-right img{
+    max-width: 600px;
+}
